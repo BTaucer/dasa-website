@@ -10,8 +10,11 @@ module.exports = {
       colors: {
         bg: "#f4f4f3",
         primary: "#000c23", // Dark blue
+        primary_h: "#001437",
         secondary: "#9c8321", // zuta
         secondary_h: "#72621d", // tamno zuta
+        green: "#1f8b4c",
+        red: "rgb(255, 102, 102)",
         // Add more custom colors as needed
       },
       fontSize: {

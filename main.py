@@ -15,9 +15,9 @@ async def home(request: Request):
     return templates.TemplateResponse("home.html", {"request": request})
 
 
-@app.get('/privatni-treninzi', status_code=status.HTTP_200_OK)
+@app.get('/osobni-treninzi', status_code=status.HTTP_200_OK)
 async def home(request: Request):
-    return templates.TemplateResponse("privatni.html", {"request": request})
+    return templates.TemplateResponse("osobni.html", {"request": request})
 
 
 @app.get('/online-coaching', status_code=status.HTTP_200_OK)
@@ -28,8 +28,3 @@ async def home(request: Request):
 @app.get('/jednokratni-planovi', status_code=status.HTTP_200_OK)
 async def home(request: Request):
     return templates.TemplateResponse("jednokratni.html", {"request": request})
-
-
-@app.get('/law', status_code=status.HTTP_200_OK)
-async def law(request: Request):
-    return templates.TemplateResponse("law_template.html", {"request": request})
